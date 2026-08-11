@@ -32,8 +32,14 @@ brew "neovim"
 # brew "kubernetes-cli"
 # brew "awscli"
 
+# --- Shell / prompt ---
+brew "starship"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+
 # --- Apps (casks) ---
-cask "iterm2"
+cask "ghostty"
+# cask "iterm2"
 cask "visual-studio-code"
 cask "cursor"
 cask "rectangle"
