@@ -1,0 +1,4 @@
+# Optional local Brewfile overrides (gitignored).
+# Example:
+# brew "postgresql@16"
+# cask "figma"
