@@ -15,8 +15,8 @@ brew "tree"      # Display directories as trees
 brew "htop"      # Interactive process viewer
 brew "tmux"      # Terminal multiplexer
 brew "watch"     # Run a program periodically, showing output fullscreen
-brew "coreutils" # GNU file, shell, and text utilities
-brew "gnu-sed"   # GNU stream editor (sed)
+# brew "coreutils" # GNU file, shell, and text utilities
+# brew "gnu-sed"   # GNU stream editor (sed)
 brew "mas"       # Mac App Store command-line interface
 
 # --- Languages / runtimes (uncomment what you use) ---
