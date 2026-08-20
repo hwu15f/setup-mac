@@ -3,56 +3,51 @@
 # Search: brew search <name>
 
 # --- CLI essentials ---
-brew "git"
-brew "gh"
-brew "curl"
-brew "wget"
-brew "jq"
-brew "ripgrep"
-brew "fd"
-brew "fzf"
-brew "tree"
-brew "htop"
-brew "tmux"
-brew "watch"
-brew "coreutils"
-brew "gnu-sed"
-brew "mas" # Mac App Store CLI (optional)
+brew "git"       # Distributed revision control system
+brew "gh"        # GitHub command-line tool
+brew "curl"      # Get a file from an HTTP, HTTPS or FTP server
+brew "wget"      # Internet file retriever
+brew "jq"        # Lightweight and flexible command-line JSON processor
+brew "ripgrep"   # Fast search tool (grep alternative)
+brew "fd"        # Fast, user-friendly alternative to find
+brew "fzf"       # Command-line fuzzy finder
+brew "tree"      # Display directories as trees
+brew "htop"      # Interactive process viewer
+brew "tmux"      # Terminal multiplexer
+brew "watch"     # Run a program periodically, showing output fullscreen
+brew "coreutils" # GNU file, shell, and text utilities
+brew "gnu-sed"   # GNU stream editor (sed)
+brew "mas"       # Mac App Store command-line interface
 
 # --- Languages / runtimes (uncomment what you use) ---
-# brew "node"
-# brew "python"
 # brew "go"
 # brew "rust"
-# brew "uv"
+brew "uv" # Fast Python package installer and resolver
+brew "fnm" # Fast Node.js version manager
 
 # --- Dev tools ---
-brew "neovim"
-# brew "docker"
+# brew "neovim"
 # brew "kubernetes-cli"
 # brew "awscli"
 
 # --- Shell / prompt ---
-brew "starship"
-brew "zsh-autosuggestions"
-brew "zsh-syntax-highlighting"
+brew "starship"                 # Cross-shell prompt
+brew "zsh-autosuggestions"      # Fish-like autosuggestions for zsh
+brew "zsh-syntax-highlighting"  # Syntax highlighting for zsh
 
 # --- Apps (casks) ---
-cask "ghostty"
-# cask "iterm2"
-cask "visual-studio-code"
-cask "cursor"
-cask "rectangle"
-cask "raycast"
-# cask "google-chrome"
-# cask "firefox"
-# cask "1password"
-# cask "slack"
-# cask "spotify"
-# cask "obsidian"
+# cask "ghostty"         # GPU-accelerated terminal emulator
+# cask "cursor"          # AI-powered code editor
+# cask "rectangle"       # Window management with keyboard shortcuts
+# cask "raycast"         # Launcher and productivity tool
+# cask "docker-desktop"  # Build and run containerized apps
+# cask "obsidian"        # Markdown knowledge base
+# cask "readest"         # Ebook reader
+# cask "google-chrome"   # Web browser
+# cask "macshot"         # Screenshot and screen recording
 
 # --- Fonts ---
-cask "font-jetbrains-mono-nerd-font"
+cask "font-jetbrains-mono-nerd-font" # JetBrains Mono with Nerd Font icons
 
 # --- Mac App Store apps (requires `mas` + being signed into App Store) ---
 # mas "Xcode", id: 497799835
