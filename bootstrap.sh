@@ -7,7 +7,7 @@ echo "==> setup-mac bootstrap"
 echo "    repo: ${ROOT}"
 echo
 
-"${ROOT}/scripts/install-homebrew.sh"
+# "${ROOT}/scripts/install-homebrew.sh"
 "${ROOT}/scripts/install-packages.sh"
 "${ROOT}/scripts/install-extra-apps.sh"
 "${ROOT}/scripts/macos-defaults.sh"
